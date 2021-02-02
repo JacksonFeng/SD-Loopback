@@ -1,6 +1,8 @@
 {
   "ids": {
-    "Todo": 5
+    "Todo": 5,
+    "User": 3,
+    "UserCredentials": 3
   },
   "models": {
     "Todo": {
@@ -8,6 +10,12 @@
       "2": "{\"title\":\"destroy alderaan\",\"desc\":\"Make sure there are no survivors left!\",\"id\":2}",
       "3": "{\"title\":\"play space invaders\",\"desc\":\"Become the very best!\",\"id\":3}",
       "4": "{\"title\":\"crush rebel scum\",\"desc\":\"Every.Last.One.\",\"id\":4}"
+    },
+    "User": {
+      "7e6b7782-e84d-4ae5-9032-2cc668284fa8": "{\"id\":\"7e6b7782-e84d-4ae5-9032-2cc668284fa8\",\"email\":\"jackson_feng@wistron.com\"}"
+    },
+    "UserCredentials": {
+      "bb5678ea-6332-448d-9d5f-20fec17a52e8": "{\"id\":\"bb5678ea-6332-448d-9d5f-20fec17a52e8\",\"password\":\"$2a$10$GuMWLmWL.ABMgAKpj3ORfu8agNzi/IXmCbpMH.vAF4TYMYOYSrQAK\",\"userId\":\"7e6b7782-e84d-4ae5-9032-2cc668284fa8\"}"
     }
   }
 }

@@ -27,6 +27,9 @@ import {Todo} from '../models';
 import {TodoRepository} from '../repositories';
 import {Geocoder} from '../services';
 
+import {authenticate} from '@loopback/authentication';
+
+@authenticate('jwt') // <---- Apply the @authenticate decorator at the class level
 export class TodoController {
   constructor(
     @repository(TodoRepository)
